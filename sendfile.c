@@ -8,8 +8,7 @@
 #include <fcntl.h>
 #include <errno.h>
 
-int
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	if (argc !=  4) {
 		fprintf(stderr, "usage: %s <from file> <to file> <len>\n", argv[0]);
